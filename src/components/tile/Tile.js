@@ -1,7 +1,7 @@
 import React from "react";
 
-export const Tile = ({ contact }) => {
-  const values = Object.values(contact);
+export const Tile = ({ item }) => {
+  const values = Object.values(item);
   return (
     <div className="tile-container">
       {values.map((value, index) => {
